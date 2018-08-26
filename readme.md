@@ -67,3 +67,14 @@ If we proceed to a phone interview, we’ll be asking questions about why you ma
 #### Why doesn't the test include X?
 
 Good question. Feel free to tell us how to make the test better. Or, you know, fork it and improve it!
+
+
+#features added by me into the code
+
+create vpc  status  :  done
+create public subnets : done
+create private subnets : done
+create NAT garteway : 
+create IGW : 
+create public routes
+create private routes :

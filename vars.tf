@@ -20,7 +20,7 @@ variable "client_code" {
 
 # Flexible AZ / subnets and CIDR layout.
 variable "vpc_cidr_block" {
-  default = "10.64.0.0/16"
+  default = "10.0.0.0/16"
 }
 
 variable "az_count" {
