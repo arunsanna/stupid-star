@@ -55,3 +55,7 @@ resource "aws_instance" "Nginx_Server" {
       ExpirationDate  = "${var.expiration_date}"
   }
   }
+
+  data "template_file" "reancore-init" {
+  template = "${file("${path.module}/templates/userdata.sh.tpl")}"
+}

@@ -103,7 +103,7 @@ variable "expiration_date" {
 }
 
 variable "my_ip_address" {
-  default = "240.155.99.61/32"
+  default = "72.219.207.54/32"
 }
 
 variable "ami_id" {
