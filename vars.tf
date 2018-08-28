@@ -101,3 +101,31 @@ variable "bastion_instance_type" {
 variable "expiration_date" {
   default = "09-28-2018"
 }
+
+variable "my_ip_address" {
+  default = "240.155.99.61/32"
+}
+
+variable "ami_id" {
+  default = "ami-04681a1dbd79675a5"
+}
+
+variable "instance_type" {
+  default = "t2.micro"
+}
+
+variable "keyname" {
+  default = "arunsanna"
+}
+
+variable "root_volume_size" {
+  default = 50
+}
+
+variable "root_volume_type" {
+  default = "gp2"
+}
+
+variable "instance_az" {
+  default = "us-east-1b"
+}
