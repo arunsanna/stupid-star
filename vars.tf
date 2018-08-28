@@ -107,7 +107,7 @@ variable "my_ip_address" {
 }
 
 variable "ami_id" {
-  default = "ami-04681a1dbd79675a5"
+  default = "ami-04169656fea786776"
 }
 
 variable "instance_type" {
